@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O jogo da forca</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="painel">
+        <h2>O jogo da forca</h2>
+
+        <button class='play'>Play</button>
+
+        <div class="pontos">
+            <p class="pontuacaof">PONTOS : 0</p>
+        </div>
+
+        <div class="generos">
+            <div class="genero">
+                <input type="radio" class="input" name="genero" checked id="jogadores">
+                <label for="jogadores" class="generolabel">Jogadores</label>
+            </div>
+
+            <div class="genero">
+                <input type="radio" class="input" name="genero" id="paises">
+                <label for="paises" class="generolabel">Países</label>
+            </div>
+
+            <div class="genero">
+                <input type="radio" class="input" name="genero" id="animais">
+                <label for="animais" class="generolabel">Animais</label>
+            </div>
+
+            <div class="genero">
+                <input type="radio" class="input" name="genero" id="animes">
+                <label for="animes" class="generolabel">Animes</label>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="jogo">
+        <div class="boneco">
+            <img src="img/img0.png" class="img">
+            <p class="pontuacao">PONTOS : 0</p>
+        </div>
+        <div class="quadro">
+            
+        </div>
+        <div class="teclado">
+
+        </div>
+    </div>
+    <script src="js/script.js" type="module"></script>
+</body>
+</html>
